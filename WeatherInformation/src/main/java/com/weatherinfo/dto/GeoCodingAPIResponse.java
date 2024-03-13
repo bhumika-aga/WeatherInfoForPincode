@@ -8,7 +8,7 @@ public class GeoCodingAPIResponse {
 	private double lon;
 	private transient String country;
 
-	public String gteZip() {
+	public String getZip() {
 		return zip;
 	}
 
